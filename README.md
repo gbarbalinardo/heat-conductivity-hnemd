@@ -14,7 +14,7 @@ A 350-line C code for heat conductivity calculations using homogeneous nonequili
 ## Theory
 The method used is called the homogeneous nonequilibrium molecular dynamics (HNEMD) method and was proposed by Evans in 1982 [D. J. Evans, Physics Letters A 91, 457 (1982)]. The simulation consists of three steps:
 * The equilibrium stage: The system is equilibrated in an NVT ensemble (It does not matter much whether a true NVT ensemble is used or not here; so the simple velocity-rescaling method is used).
-* The production stage: An external driving force Fe is applied on each particle (the total force on each particle is then set to zero) and the total heat current J of the system is calculated in an NVT ensemble (again the simple velocity-rescaling method suffices).
+* The production stage: An external driving force Fe is applied on each particle (the total force on the whole system is then set to zero) and the total heat current J of the system is calculated in an NVT ensemble (again the simple velocity-rescaling method suffices).
 * The post-processing stage: The heat conductivity is calculated as J/T/V/Fe, where T is the temperature and V is the volume of the system.
   
 ## File organizations
