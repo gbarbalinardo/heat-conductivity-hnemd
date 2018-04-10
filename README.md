@@ -43,7 +43,7 @@ The method used is called the homogeneous nonequilibrium molecular dynamics (HNE
 * Then, go to the directory "20" and type 
   * ../kappa_hnemd < input 
   
-  If you want do a few independent runs using one command, you can execute the "run" script I prepared:
+  If you want to do a few independent runs using one command, you can execute the "run" script I prepared:
   * ./run
   
 * The simulation parameters are read in from the file "input". There are only a few parameters to play with. Check the beginning of the main() function in the C code to understand the meanings (and units) of the input parameters.
@@ -56,7 +56,7 @@ The method used is called the homogeneous nonequilibrium molecular dynamics (HNE
 
 * For the HNEMD method, see D. J. Evans, "Homogeneous NEMD algorithm for thermal conductivity--Application of non-canonical linear response theory", Physics Letters A 91, 457 (1982).
 
-* For bechmark results for Lennard-Jones argon, see table 1 of A.J.H. McGaughey and M. Kaviany, "Thermal conductivity decomposition and analysis using molecular dynamics simulations. Part I. Lennard-Jones argon", International Journal of Heat and Mass Transfer 47, 1783 (2004).
+* For benchmark results for Lennard-Jones argon, see table 1 of A.J.H. McGaughey and M. Kaviany, "Thermal conductivity decomposition and analysis using molecular dynamics simulations. Part I. Lennard-Jones argon", International Journal of Heat and Mass Transfer 47, 1783 (2004).
 
 ## Contact
 
