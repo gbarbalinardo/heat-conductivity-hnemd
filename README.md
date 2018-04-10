@@ -48,15 +48,15 @@ The method used is called the homogeneous nonequilibrium molecular dynamics (HNE
   
 * The simulation parameters are read in from the file "input". There are only a few parameters to play with. Check the beginning of the main() function in the C code to understand the meanings of the input parameters.
   
-* After running the C code, a file named kappa.txt will be generated one can run the Matlab script to analyze the results. Two figures will show up:
+* After running the C code, a file named kappa.txt will be generated and one can run the Matlab script to analyze the results. Two figures will show up:
   * The first figure shows the running average of the diagonal thermal conductivity component k_xx, which should be about 1.5 W/mK (LJ argon at 20 K).
   * The second figure shows the running average of the off-diagonal thermal conductivity component k_yx, which should be close to zero (the system is isotropic).
   
-## Reference
+## References
 
 * For the HNEMD method, see D. J. Evans, "Homogeneous NEMD algorithm for thermal conductivity--Application of non-canonical linear response theory", Physics Letters A 91, 457 (1982).
 
-* For bechmark results for Lennard-Jones argon, see table 1 of A.J.H. McGaughey and M. Kaviany, "Thermal conductivity decomposition and analysis using molecular dynamics simulations. Part I. Lennard-Jones argon", International Journal of Heat and Mass Transfer 47 (2004) 1783–1798.
+* For bechmark results for Lennard-Jones argon, see table 1 of A.J.H. McGaughey and M. Kaviany, "Thermal conductivity decomposition and analysis using molecular dynamics simulations. Part I. Lennard-Jones argon", International Journal of Heat and Mass Transfer 47, 1783 (2004).
 
 ## Contact
 
