@@ -42,6 +42,7 @@ The method used is called the homogeneous nonequilibrium molecular dynamics (HNE
   
 * Then, go to the directory "20" and type (the file "run" 
   * ../kappa_hnemd < input 
+  
   If you want do a few independent runs using one command, you can execute the "run" script I prepared:
   * ./run
   
