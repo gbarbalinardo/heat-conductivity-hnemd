@@ -40,7 +40,7 @@ The method used is called the homogeneous nonequilibrium molecular dynamics (HNE
 * Although the code was written in pure C, I used a suffix of .cpp and one can therefore use g++ to compile it. In linux, it can be compiled using, e.g.
   * g++ -O3 kappa_hnemd.cpp -o kappa_hnemd
   
-* Then, go to the directory "20" and type (the file "run" 
+* Then, go to the directory "20" and type 
   * ../kappa_hnemd < input 
   
   If you want do a few independent runs using one command, you can execute the "run" script I prepared:
