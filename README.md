@@ -22,7 +22,7 @@ The method used is called the homogeneous nonequilibrium molecular dynamics (HNE
 * The main code is a standalone C code:
   * kappa_hnemd.cpp
 
-* The following Matlab script can be used to analyze the data:
+* The following Matlab script in the "20" directory can be used to analyze the data:
   * plot_kappa.m
 
 ## Unit system
@@ -46,7 +46,7 @@ The method used is called the homogeneous nonequilibrium molecular dynamics (HNE
   If you want do a few independent runs using one command, you can execute the "run" script I prepared:
   * ./run
   
-* The simulation parameters are read in from the file "input". There are only a few parameters to play with. Check the beginning of the main() function in the C code to understand the meanings of the input parameters.
+* The simulation parameters are read in from the file "input". There are only a few parameters to play with. Check the beginning of the main() function in the C code to understand the meanings (and units) of the input parameters.
   
 * After running the C code, a file named kappa.txt will be generated and one can run the Matlab script to analyze the results. Two figures will show up:
   * The first figure shows the running average of the diagonal thermal conductivity component k_xx, which should be about 1.5 W/mK (LJ argon at 20 K).
