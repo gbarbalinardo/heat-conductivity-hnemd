@@ -6,8 +6,8 @@ Ns=size(kappa,1)/N % number of independent runs
 t=kappa(1:N,1); % time
 
 % running average of the thermal conductivity
-kxx=cumsum(reshape(kappa(:,2),N,Ns))./(1:N).';
-kyx=cumsum(reshape(kappa(:,3),N,Ns))./(1:N).';
+kxx=cumsum(reshape(kappa(:,2),N,Ns))./((1:N).'*ones(1,Ns));
+kyx=cumsum(reshape(kappa(:,3),N,Ns))./((1:N).'*ones(1,Ns));
 
 disp(['k_xx = (', num2str(mean(kxx(end,:))), ' +- ', ...
     num2str(std(kxx(end,:))/sqrt(Ns)), ') W/mK']);
